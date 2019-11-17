@@ -1,14 +1,11 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\Владимир\\RiderProjects\\Morphology\\Model\\Model.csproj",
+    "projectUniqueName": "D:\\Учеба\\ТОИ\\lab10\\Morphology\\Model\\Model.csproj",
     "projectName": "Model",
-    "projectPath": "C:\\Users\\Владимир\\RiderProjects\\Morphology\\Model\\Model.csproj",
-    "outputPath": "C:\\Users\\Владимир\\RiderProjects\\Morphology\\Model\\obj\\",
+    "projectPath": "D:\\Учеба\\ТОИ\\lab10\\Morphology\\Model\\Model.csproj",
+    "outputPath": "D:\\Учеба\\ТОИ\\lab10\\Morphology\\Model\\obj\\",
     "projectStyle": "PackageReference",
-    "fallbackFolders": [
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-    ],
     "originalTargetFrameworks": [
       "netcoreapp2.0"
     ],

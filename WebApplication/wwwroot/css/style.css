@@ -1,22 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Tomorrow&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Lobster|Tomorrow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+    background-color: #0f0f0f;
+    color: gray;
+}
 
 .grid-container {
     display: grid;
-    height: 600px;
-    margin: 20px;
+    height: auto;
+    margin: 30px;
+    padding: 20px;
     grid-template-columns: 2fr 1fr 2fr;
     grid-template-rows: 100%;
     grid-template-areas:
         "source actions result";
-    font-family: 'Consolas';
+    gap: 2%;
+    font-family: 'Montserrat';
+    background-color: #ffffff0e;
 }
 
 .source-section {
     grid-area: source;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 1fr 8fr;
+    grid-template-rows: 1fr 12fr;
     grid-template-areas:
         "source-header"
         "source-main"
@@ -26,7 +35,7 @@
     grid-area: actions;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 1fr 8fr;
+    grid-template-rows: 1fr 12fr;
     grid-template-areas:
         "."
         "actions-main"
@@ -40,7 +49,7 @@
     grid-area: result;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 1fr 8fr;
+    grid-template-rows: 1fr 12fr;
     grid-template-areas:
         "result-header"
         "result-main"
@@ -56,15 +65,83 @@
 
 .source-canvas {
     grid-area: source-main;
-    background-color: darkgray;
-    width: 400px;
-    height: 400px;
 }
 
 .result-canvas {
     grid-area: result-main;
 }
 
+.canvas {
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    height: 450px;
+    box-shadow: #00000098 5px 5px 5px;
+}
+
 .operation {
-    display: block;
+    display: inline;
+    font-size: smaller;
+}
+
+h2 {
+    font-size: large;
+    color: rgb(206, 14, 72);
+}
+
+h3 {
+    font-size: medium;
+    color: orange;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    margin-top: 10px;
+}
+
+.operations-list {
+    padding: 0;
+    padding-left: 16px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: auto;
+    list-style-type: none;
+}
+
+.operations-list li label {
+    padding-left: 8px;
+}
+
+.transform-btn {
+    margin-top: 50px;
+    background-color: transparent;
+    border: rgb(0, 102, 255) 1px solid;
+    color: rgb(0, 102, 255);
+}
+
+.transform-btn:hover {
+    box-shadow: rgb(0, 102, 255) 0 0 4px;
+}
+
+.transform-btn:focus {
+    box-shadow: rgb(0, 102, 255) 0 0 8px;
+}
+
+.clear-btn {
+    grid-area: source-header;
+    width: 100px;
+    height: 30px;
+    margin-left: 300px;
+    background-color: transparent;
+    border: rgb(207, 0, 52) 1px solid;
+    color: rgb(207, 0, 52);
+}
+
+.clear-btn:hover {
+    box-shadow: rgb(207, 0, 52) 0 0 4px;
+}
+
+.clear-btn:focus {
+    box-shadow: rgb(207, 0, 52) 0 0 8px;
 }

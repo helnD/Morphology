@@ -676,23 +676,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Владимир\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Виктория\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Владимир\\RiderProjects\\Morphology\\Model\\Model.csproj",
+      "projectUniqueName": "D:\\Учеба\\ТОИ\\lab10\\Morphology\\Model\\Model.csproj",
       "projectName": "Model",
-      "projectPath": "C:\\Users\\Владимир\\RiderProjects\\Morphology\\Model\\Model.csproj",
-      "packagesPath": "C:\\Users\\Владимир\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Владимир\\RiderProjects\\Morphology\\Model\\obj\\",
+      "projectPath": "D:\\Учеба\\ТОИ\\lab10\\Morphology\\Model\\Model.csproj",
+      "packagesPath": "C:\\Users\\Виктория\\.nuget\\packages\\",
+      "outputPath": "D:\\Учеба\\ТОИ\\lab10\\Morphology\\Model\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Владимир\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Виктория\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

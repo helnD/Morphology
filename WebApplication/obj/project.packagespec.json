@@ -1,14 +1,11 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\Владимир\\RiderProjects\\Morphology\\WebApplication\\WebApplication.csproj",
+    "projectUniqueName": "D:\\Учеба\\ТОИ\\lab10\\Morphology\\WebApplication\\WebApplication.csproj",
     "projectName": "WebApplication",
-    "projectPath": "C:\\Users\\Владимир\\RiderProjects\\Morphology\\WebApplication\\WebApplication.csproj",
-    "outputPath": "C:\\Users\\Владимир\\RiderProjects\\Morphology\\WebApplication\\obj\\",
+    "projectPath": "D:\\Учеба\\ТОИ\\lab10\\Morphology\\WebApplication\\WebApplication.csproj",
+    "outputPath": "D:\\Учеба\\ТОИ\\lab10\\Morphology\\WebApplication\\obj\\",
     "projectStyle": "PackageReference",
-    "fallbackFolders": [
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-    ],
     "originalTargetFrameworks": [
       "netcoreapp3.0"
     ],
