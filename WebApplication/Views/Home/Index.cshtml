@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Морфология";
+}
+
+<div class="grid-container">
+    <div class="grid-item source-section">
+        <h2>Источник:</h2>
+        <canvas id="source" class="source-canvas" onclick="drawPixel(this, event.clientX, event.clientY);"></canvas>
+    </div>
+    <div class="grid-item action-section">
+        <div class="operations">
+            <h3>Операции преобразования:</h3>
+            <input class="operation" type="radio">наращивание</input>
+            <input class="operation" type="radio">эрозия</input>
+            <input class="operation" type="radio">замыкание</input>
+            <input class="operation" type="radio">размыкание</input>
+        </div>
+    </div>
+    <div class="grid-item result-section">
+        <h2>Результат:</h2>
+        <canvas id="result" class="result-canvas"></canvas>
+    </div>
+    
+</div>

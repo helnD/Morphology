@@ -1,0 +1,8 @@
+C:\Users\Владимир\RiderProjects\Morphology\Model\bin\Debug\netcoreapp2.0\Model.deps.json
+C:\Users\Владимир\RiderProjects\Morphology\Model\bin\Debug\netcoreapp2.0\Model.dll
+C:\Users\Владимир\RiderProjects\Morphology\Model\bin\Debug\netcoreapp2.0\Model.pdb
+C:\Users\Владимир\RiderProjects\Morphology\Model\obj\Debug\netcoreapp2.0\Model.csprojAssemblyReference.cache
+C:\Users\Владимир\RiderProjects\Morphology\Model\obj\Debug\netcoreapp2.0\Model.AssemblyInfoInputs.cache
+C:\Users\Владимир\RiderProjects\Morphology\Model\obj\Debug\netcoreapp2.0\Model.AssemblyInfo.cs
+C:\Users\Владимир\RiderProjects\Morphology\Model\obj\Debug\netcoreapp2.0\Model.dll
+C:\Users\Владимир\RiderProjects\Morphology\Model\obj\Debug\netcoreapp2.0\Model.pdb
