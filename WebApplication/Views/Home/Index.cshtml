@@ -1,4 +1,5 @@
-﻿@{
+﻿@model Domain.ImageModel
+@{
     ViewData["Title"] = "Морфология";
 }
 
@@ -6,7 +7,7 @@
     <div class="grid-item source-section">
             <h2>Источник:</h2>
             <button class="clear-btn">Очистить</button>
-            <canvas id="source" class="source-canvas canvas" onclick="drawPixel(this, event.clientX, event.clientY);" onload="drawGrid();"></canvas>
+            <canvas height="450" width="450" id="source" class="source-canvas canvas" onmousedown="canvasOnMouseDown(this, event.clientX, event.clientY);" onmouseup="canvasOnMouseUp()" onmousemove="canvasOnMouseMove(this, event.clientX, event.clientY)" onload="drawGrid();"></canvas>
         </div>
         <div class="grid-item action-section">
             <div class="operations">
@@ -30,13 +31,23 @@
                             <label for="unlocking">размыкание</label>
                         </li>
                     </div>
-                    <button class="transform-btn" type="submit">Преобразовать</button>
+                    <button class="transform-btn" type="button" onclick="request()">Преобразовать</button>
                 </form>
             </div>
         </div>
-        <div class="grid-item result-section">
-            <h2>Результат:</h2>
-            <canvas id="result" class="result-canvas canvas"></canvas>
-        </div>
+    <div class="grid-item result-section">
+        <h2>Результат:</h2>
+        <canvas height="450" width="450" id="result" class="result-canvas canvas"></canvas>
+    </div>
+    @if (Model != null)
+    {
+        for (int i = 0; i < Model.Height; i++)
+        {
+            for (int j = 0; j < Model.Width; j++)
+            {
+                <script>drawPixelByCoordinate({x: @j , y: @i})</script>
+            }
+        }
+    }
 </div>
 

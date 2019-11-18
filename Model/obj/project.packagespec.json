@@ -1,16 +1,15 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "D:\\Учеба\\ТОИ\\lab10\\Morphology\\Model\\Model.csproj",
+    "projectUniqueName": "C:\\Users\\1\\RiderProjects\\Morphology\\Model\\Model.csproj",
     "projectName": "Model",
-    "projectPath": "D:\\Учеба\\ТОИ\\lab10\\Morphology\\Model\\Model.csproj",
-    "outputPath": "D:\\Учеба\\ТОИ\\lab10\\Morphology\\Model\\obj\\",
+    "projectPath": "C:\\Users\\1\\RiderProjects\\Morphology\\Model\\Model.csproj",
+    "outputPath": "C:\\Users\\1\\RiderProjects\\Morphology\\Model\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp2.0"
     ],
     "sources": {
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {

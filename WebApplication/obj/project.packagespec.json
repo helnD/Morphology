@@ -1,21 +1,24 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "D:\\Учеба\\ТОИ\\lab10\\Morphology\\WebApplication\\WebApplication.csproj",
+    "projectUniqueName": "C:\\Users\\1\\RiderProjects\\Morphology\\WebApplication\\WebApplication.csproj",
     "projectName": "WebApplication",
-    "projectPath": "D:\\Учеба\\ТОИ\\lab10\\Morphology\\WebApplication\\WebApplication.csproj",
-    "outputPath": "D:\\Учеба\\ТОИ\\lab10\\Morphology\\WebApplication\\obj\\",
+    "projectPath": "C:\\Users\\1\\RiderProjects\\Morphology\\WebApplication\\WebApplication.csproj",
+    "outputPath": "C:\\Users\\1\\RiderProjects\\Morphology\\WebApplication\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.0"
     ],
     "sources": {
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
       "netcoreapp3.0": {
-        "projectReferences": {}
+        "projectReferences": {
+          "C:\\Users\\1\\RiderProjects\\Morphology\\Domain\\Domain.csproj": {
+            "projectPath": "C:\\Users\\1\\RiderProjects\\Morphology\\Domain\\Domain.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

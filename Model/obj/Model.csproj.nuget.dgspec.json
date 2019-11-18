@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Учеба\\ТОИ\\lab10\\Morphology\\Model\\Model.csproj": {}
+    "C:\\Users\\1\\RiderProjects\\Morphology\\Model\\Model.csproj": {}
   },
   "projects": {
-    "D:\\Учеба\\ТОИ\\lab10\\Morphology\\Model\\Model.csproj": {
+    "C:\\Users\\1\\RiderProjects\\Morphology\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Учеба\\ТОИ\\lab10\\Morphology\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\1\\RiderProjects\\Morphology\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "D:\\Учеба\\ТОИ\\lab10\\Morphology\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\Виктория\\.nuget\\packages\\",
-        "outputPath": "D:\\Учеба\\ТОИ\\lab10\\Morphology\\Model\\obj\\",
+        "projectPath": "C:\\Users\\1\\RiderProjects\\Morphology\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1\\RiderProjects\\Morphology\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Виктория\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
